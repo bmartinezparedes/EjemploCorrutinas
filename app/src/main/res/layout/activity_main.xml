@@ -20,8 +20,9 @@
         android:id="@+id/miBoton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="51dp"
         android:text="Boton"
-        tools:layout_editor_absoluteX="158dp"
-        tools:layout_editor_absoluteY="426dp" />
+        app:layout_constraintStart_toStartOf="@+id/miText"
+        app:layout_constraintTop_toBottomOf="@+id/miText" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
