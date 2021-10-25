@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
             suspendingTask(miTexto)
         }
         val job2= GlobalScope.launch(Dispatchers.Main){
+            job.join()
             suspendingTask2(miTexto)
         }
     }
